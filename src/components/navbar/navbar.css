@@ -26,3 +26,9 @@
     font-weight: 500;
     font-size: 1.4vw;
 }
+
+@media screen and (max-width: 1200px){
+    .navbar{
+        display: none;
+    }
+}

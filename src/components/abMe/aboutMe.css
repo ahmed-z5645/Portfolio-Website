@@ -71,3 +71,52 @@
     text-decoration: underline;
     position: relative;
 }
+
+.job-title{
+    margin-bottom: 0.3vw
+}
+
+@media screen and (max-width: 1200px){
+    .aboutMe{
+        display: inline;
+    }
+
+    .abmeLeft{
+        width:90%;
+        margin: auto;
+        position: relative;
+    }
+
+    .abmeRight{
+        width:90%;
+        margin: auto;
+    }
+
+    .resumeButton{
+        height: 12vw;
+        font-size: 6vw;
+        border-radius: 3vw;
+    }
+
+    .job-title{
+        margin-bottom: 2vw;
+    }
+
+    .subject{
+        font-size:4.5vw;
+        display: inline;
+        margin-bottom: 0%;
+    }
+
+    .skills{
+        font-size: 2.5vw;
+    }
+
+    .skill{
+        border-radius: 3.5vw;
+    }
+
+    .link p{
+        font-size: 4.5vw;
+    }
+}

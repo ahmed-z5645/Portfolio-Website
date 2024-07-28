@@ -60,7 +60,7 @@ const Contact = ({email_public=email_api_public, service=email_api_service, temp
                         ))}
                         {logos2.map((logo)=>(
                             <div>
-                                <a href={logo.link}><img src={logo.image} className="logo" alt="a logo"/></a>
+                                <a href={logo.link}><img src={logo.image} className="logo2" alt="a logo"/></a>
                             </div>
                     ))}
                     </div>
@@ -70,6 +70,7 @@ const Contact = ({email_public=email_api_public, service=email_api_service, temp
                 </div>
             </div>
             <br />
+            <p style={{textAlign: 'center'}}>Coded, designed, and illustrated w/ love by Ahmed Zafar</p>
             <br />
         </div>
     )

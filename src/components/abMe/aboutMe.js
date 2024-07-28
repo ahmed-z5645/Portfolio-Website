@@ -49,7 +49,7 @@ const AboutMe = () =>{
                     {
                         jobs.map((jobs)=>(
                             <div className='job'>
-                                <h2 style={{marginBottom: '0.3vw'}}>{jobs.title}</h2>
+                                <h2 className="job-title">{jobs.title}</h2>
                                 <div className="subject">
                                     <div>{jobs.employer}</div> <div>{jobs.date}</div>
                                 </div>

@@ -109,3 +109,66 @@
     text-decoration: underline;
     position:relative;
 }
+
+@media screen and (max-width:1200px){
+    .content{
+        display: inline;
+    }
+
+    .title{
+        width: 90%;
+        margin: auto;
+        z-index: auto;
+    }
+
+    .title h1{
+        font-size: 15vw;
+        font-weight: 1000;
+    }
+
+    .title h2{
+        margin-top: 5%;
+        font-size: 10vw;
+        margin-bottom: 0%;
+    }
+
+    .deskstyle{
+        right:0%;
+        top:0%;
+        width:100%;
+        position:auto;
+        z-index: auto;
+    }
+
+    .Cards{
+        display: inline;
+        width: 90%;
+        margin:auto;
+        z-index: auto;
+    }
+
+    .coloumn{
+        width:100%;
+    }
+
+    .card{
+        width: 80%;
+        margin-bottom: 0%;
+    }
+
+    .card h3{
+        font-size: 4vw;
+    }
+    
+    .cardImage{
+        width: 100%
+    }
+
+    .skillsp{
+        font-size: 2.5vw;
+    }
+
+    .skillp{
+        border-radius:3.5vw;
+    }
+}
