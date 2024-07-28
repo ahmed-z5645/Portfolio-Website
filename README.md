@@ -1,3 +1,6 @@
+Here's my portfolio! This was my first big front-end project. I coded, designed, and illustrated the entirety of the project! The result can be viewed at ahmedzafar.me
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
