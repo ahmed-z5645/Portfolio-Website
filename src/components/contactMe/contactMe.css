@@ -1,0 +1,83 @@
+.contactMe{
+    width:100%;
+}
+
+.contact{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.email-form{
+    width:40%;
+    text-align:left;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    background-color: #00141D;
+    border-color: #808080;
+    border-width: 5px;
+    border-radius: 1vw;
+    height: fit-content;
+    min-height: 3.5vw;
+    margin-bottom: 3%;
+    color: #808080;
+    font-size: 1.3vw;
+}
+.message-form{
+    background-color: #00141D;
+    border-color: #808080;
+    border-width: 5px;
+    border-radius: 1vw;
+    height: fit-content;
+    min-height: 16vw;
+    margin-bottom: 3%;
+    color: #808080;
+    font-size: 1.3vw;
+}
+.graphic{
+    width: 35%
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    width: 12vw;
+    justify-content: space-between;
+    margin-right:5%;
+    height:12vw;
+    margin: auto;
+    border-width: 5px;
+    border-color: aliceblue;
+    margin-bottom:35%;
+    margin-left:10%;
+}
+
+.logo{
+    width: 6vw;
+    margin-bottom: 35%;
+}
+
+.email-button{
+    width: 100%;
+    height: 2.5vw;
+    background-color: #3d677b;
+    border-radius: 1vw;
+    border:none;
+    outline:none;
+    box-shadow:none;
+    text-align:center;
+    font-size:1.3vw;
+    color: #deedf8;
+}
+
+.email-button:hover{
+    cursor: pointer
+}

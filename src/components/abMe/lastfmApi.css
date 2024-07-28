@@ -1,0 +1,97 @@
+.headshot{
+    width: 100%;
+    height:100%;
+}
+
+.headshot-pic{
+    width: 28vw;
+    height: 35vw;
+    position: absolute;
+    margin-left: 7%;
+    z-index:2;
+    border-radius: 10%
+}
+
+.headshot-back{
+    margin-top: 25%;
+    width:100%;
+}
+
+.playing{
+    min-width:100%;
+    background-color:#3d677b;
+    color: #deedf8;
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    border-radius: 5vw;
+    align-items: center;
+    height: 8.5vw;
+    margin-right: 0%;
+}
+
+.albumCover{
+    height: 6.7vw;
+    border-radius: 50%;
+    margin-left: 2.5%;
+    margin-right:3%;
+}
+.soundBar{
+    color: #deedf8;
+    line-height: normal;
+    display: inline-block;
+    width: calc(60%);
+    margin-top: 0;
+    height: 80%;
+    margin-right: 0%;
+}
+
+.sound-title{
+    font-size: 1vw;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 20%;
+}
+.play-bar{
+    display: flex;
+    flex-direction: column;
+}
+
+.song-info{
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    width: calc(100%);
+    height: 50%; 
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.song-name{
+    font-weight: 700;
+    max-height: 100%;
+    margin-right: 3.5%;
+    white-space: nowrap;
+    text-decoration: underline #3d677b;
+    color: #deedf8;
+    font-size: 1.5vw;
+}
+
+.artist-name{
+    font-weight:300;
+    font-size: 1.5vw;
+    max-height: 100%;
+    white-space: nowrap;
+}
+
+.play-bar{
+    width: 90%
+}
+
+.pause{
+    font-size: 3vw;
+    font-weight: 900;
+    min-width:10%;
+}
+
