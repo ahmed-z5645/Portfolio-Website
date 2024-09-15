@@ -23,12 +23,12 @@ const AboutMe = () =>{
                     Biomedical Engineering & Health Sciences Program at McMaster University. I believe 
                     that everyone can code, but writing code that is modular, efficient, consistent, and 
                     easy to read is the real challenge. Code is the building block of the complex 
-                    programs we encounter every day: without a solid architecture, free of unecessary 
+                    programs we encounter every day: without a solid architecture, free of unnecessary 
                     dependencies and "tangled lines of code" everything can fall apart when a minuscule 
                     change is made. I strive to get closer to writing flawless, efficient and maintainable 
                     code with every line.</p>
 
-                    <a href="Ahmed_Zafar_Resume_TA.pdf" target="_blank"><div className="resumeButton">Resume</div></a>
+                    <a href="AhmedZafar_Resume.pdf" target="_blank"><div className="resumeButton">Resume</div></a>
 
                 <p> I am currently on CO-OP at Biomedic.AI Labs @ McMaster where I specialize in 
                     different facets of Artificial Intelligence and Machine Learning. The lab 
@@ -73,9 +73,5 @@ export default AboutMe
 
 
 /*
-#still need to format the now playing
-#also get the pictue
-#add sticky to picture
-#add sticky to headers
 #add flashlight 
 */

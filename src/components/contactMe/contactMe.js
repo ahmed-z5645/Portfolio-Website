@@ -43,7 +43,7 @@ const Contact = ({email_public=email_api_public, service=email_api_service, temp
                         <input type="email" name="user_email" 
                         placeholder="Email"className="form" minLength={6}/>
 
-                        <input type="text" name="message" 
+                        <input type="text" name="message" multiline
                         placeholder="Message" className="message-form"/>
 
                         <button type="submit" className="email-button" onHover={{cursor: 'pointer'}}>
@@ -70,7 +70,7 @@ const Contact = ({email_public=email_api_public, service=email_api_service, temp
                 </div>
             </div>
             <br />
-            <p style={{textAlign: 'center'}}>Coded, designed, and illustrated w/ love by Ahmed Zafar</p>
+            <p style={{textAlign: 'center'}}>All code written, produced, and arranged w/ love by Ahmed Zafar</p>
             <br />
         </div>
     )
