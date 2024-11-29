@@ -24,6 +24,7 @@
 .abmeRight h1{
     position: relative;
 }
+
 .resumeButton{
     height:3.5vw;
     width: 100%;
@@ -64,16 +65,50 @@
     font-weight: 700;
 }
 
-.link{
-    margin-top: 0%;
-    font-size: 0.9vw;
-    color:#deedf844;
-    text-decoration: underline;
-    position: relative;
+.link {
+    text-decoration: none; 
+    color: inherit;
+    display: block;
+}
+
+.link *{
+    text-decoration: none;
 }
 
 .job-title{
+    margin-top: 0%;
     margin-bottom: 0.3vw
+}
+
+.job {
+    transition: 1s ease-in-out;
+    border-radius: 0.5vw;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+
+.job:hover {
+    background-color: #002330;
+    transition: 0.5s;
+    transform: scale(1.01);
+    box-shadow: 0px 0px 25px rgb(0, 0, 0);
+    cursor:pointer;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.job p {
+    transition: color 1s;
+    font-size: 1.2vw;
+}
+
+.job:hover p {
+    color: snow;
+}
+
+.job > * {
+    transform: scale(1);
 }
 
 @media screen and (max-width: 1280px){
@@ -85,6 +120,18 @@
         width:90%;
         margin: auto;
         position: relative;
+    }
+
+    .job{
+        border-radius: 5vw;
+    }
+
+    .job:hover{
+        padding: auto;
+    }
+
+    .job p{
+        font-size: 5vw;
     }
 
     .abmeRight{

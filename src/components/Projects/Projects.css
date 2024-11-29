@@ -1,13 +1,14 @@
 .deskstyle{
-    width: 50vw;
-    position: relative;
-    right: 21%;
-    top: 25%;
-    z-index: -1;
+    width: 35vw;
+    position: absolute;
+    bottom: -3.25%;
+    left: -10%;
+    z-index:-1;
 }
 
 .background{
     background-color:aliceblue;
+    z-index: -2;
 }
 
 .top-gradient{
@@ -31,39 +32,47 @@
     margin: auto;
 }
 
-.title{
-    width: 35%;
+.Col{
+    width:30%;
+    margin-top: 4%;
+    z-index: 2;
+    position: relative;
+}
+
+
+.title-blurb{
+    width: 100%;
     text-align: left;
     z-index: 1;
 }
 
-.title h1{
-    font-size: 5vw;
+.title-blurb h1{
+    font-size: 4.5vw;
     color: #3d667b;
     font-weight: 1000;
     margin-bottom: 0%;
 }
 
-.title h2{
-    font-size:2.3vw;
+.title-blurb h2{
+    font-size:2.1vw;
     color: #001B25;
 }
 
-.Cards{
-    display: flex;
-    width: 60%;
-    justify-content: space-around;
-    z-index: 2;
-}
-
-.coloumn{
-    width: 45%;
-}
 .card{
     width: 100%;
     text-align: left;
-    padding: 10%;
-    margin-bottom: 5%
+    padding: 5%;
+    margin-bottom: 5%;
+    border-radius: 2vw;
+    transition: 1s ease-in-out;
+}
+
+.card:hover{
+    background-color: #81b6d050;
+    color: #001B25;
+    transition: 0.5s;
+    transform: scale(1.01);
+    cursor: pointer;
 }
 
 .card h2{
@@ -76,6 +85,11 @@
     font-size:1vw;
     margin-top: 2%;
     margin-bottom: 0%;
+}
+
+.card p{
+    margin-top: 2%;
+    font-weight:550;
 }
 
 .cardImage{
@@ -115,36 +129,34 @@
         display: inline;
     }
 
-    .title{
-        width: 90%;
-        margin: auto;
-        z-index: auto;
+    .Col{
+        width:100%;
+        margin-left: 5%;
     }
 
-    .title h1{
-        font-size: 15vw;
+    .title-blurb{
+        width: 85%;
+        margin: auto;
+        z-index: auto;
+        margin-bottom: 75vw;
+    }
+
+    .title-blurb h1{
+        font-size: 14vw;
         font-weight: 1000;
     }
 
-    .title h2{
+    .title-blurb h2{
         margin-top: 5%;
-        font-size: 10vw;
+        font-size: 9vw;
         margin-bottom: 0%;
     }
 
     .deskstyle{
-        right:0%;
-        top:0%;
         width:100%;
-        position:auto;
-        z-index: auto;
-    }
-
-    .Cards{
-        display: inline;
-        width: 90%;
-        margin:auto;
-        z-index: auto;
+        margin-left: 7.5%;
+        position:absolute;
+        top: 27.5%;
     }
 
     .coloumn{

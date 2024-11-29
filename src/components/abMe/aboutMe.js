@@ -30,11 +30,11 @@ const AboutMe = () =>{
 
                     <a href="Ahmed_ZafarResume.pdf" target="_blank"><div className="resumeButton">Resume</div></a>
 
-                <p> I am currently on CO-OP at Biomedic.AI Labs @ McMaster where I specialize in 
+                {/*<p> I am currently on CO-OP at Biomedic.AI Labs @ McMaster where I specialize in 
                     different facets of Artificial Intelligence and Machine Learning. The lab 
                     specializes in utilizing Artificial intelligence as a tool within the healthcare 
                     field. The current focus of the lab is quantifying trust in autonomous medical 
-                    advisory systems (AMAS).</p>
+                    advisory systems (AMAS).</p>*/}
 
                 <p> In my free time, I like to play tennis, go to the gym, travel, cook and try new food,
                     keep my many, many plants alive, and of course, listen to music. I love expanding the range of artists that I enjoy, 
@@ -44,11 +44,11 @@ const AboutMe = () =>{
                     see what song I am currently listening to (or the last song I played). Feel free to 
                     reach out to me with questions about my work and projects, music rec's, or just to chat 
                     about your favorite artists!</p>
-                <h1 id="workxp">Work Experience</h1>
+                <h1 id="workxp" style={{marginBottom:"2%"}}>Work Experience</h1>
                 <div className="items">
                     {
                         jobs.map((jobs)=>(
-                            <div className='job'>
+                            <div className='job' onClick={()=>{window.open(jobs.link)}}>
                                 <h2 className="job-title">{jobs.title}</h2>
                                 <div className="subject">
                                     <div>{jobs.employer}</div> <div>{jobs.date}</div>
@@ -59,7 +59,6 @@ const AboutMe = () =>{
                                     <div className="skill">{skill}</div>
                                     ))}
                                 </div>
-                                <a href={jobs.link} target="_blank" className='link'><p>Learn More</p></a>
                             </div>
                         ))
                     }
