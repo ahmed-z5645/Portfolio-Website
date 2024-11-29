@@ -76,7 +76,7 @@
     margin-bottom: 0.3vw
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1280px){
     .aboutMe{
         display: inline;
     }
@@ -118,5 +118,12 @@
 
     .link p{
         font-size: 4.5vw;
+    }
+}
+
+@media screen and (min-width: 1500px){
+    .aboutMe{
+        max-width: 1500px;
+        margin-left: calc((100vw - 1500px)/2);
     }
 }

@@ -28,7 +28,7 @@ const AboutMe = () =>{
                     change is made. I strive to get closer to writing flawless, efficient and maintainable 
                     code with every line.</p>
 
-                    <a href="AhmedZafar_Resume.pdf" target="_blank"><div className="resumeButton">Resume</div></a>
+                    <a href="Ahmed_ZafarResume.pdf" target="_blank"><div className="resumeButton">Resume</div></a>
 
                 <p> I am currently on CO-OP at Biomedic.AI Labs @ McMaster where I specialize in 
                     different facets of Artificial Intelligence and Machine Learning. The lab 

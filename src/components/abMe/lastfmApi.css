@@ -160,3 +160,19 @@
       transform: rotate(360deg);
     }
   }
+
+@media screen and (min-width: 1600px){
+
+    .headshot-pic{
+        width: 473px;
+        height: 591.25px;
+    }
+
+    .headshot-back{
+        width:591.25px;
+    }
+}
+
+/*623 back
+ * 498.39
+ */

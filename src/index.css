@@ -55,3 +55,17 @@ html {
     line-height: 110%;
   }
 }
+
+@media screen and (min-width: 1600px){
+  body{
+    font-size:20px;
+  }
+
+  body h1{
+    font-size: 44.44px;
+  }
+
+  body h2 {
+    font-size:35.55px;
+  }
+}
