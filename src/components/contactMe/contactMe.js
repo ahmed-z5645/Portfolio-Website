@@ -70,8 +70,7 @@ const Contact = ({email_public=email_api_public, service=email_api_service, temp
                 </div>
             </div>
             <br />
-            <p style={{textAlign: 'center'}}>All code written, produced, and arranged w/ love by Ahmed Zafar</p>
-            <br />
+            <p style={{textAlign: 'center'}}>All code written, produced, and arranged w/ <span className="love">love</span> by Ahmed Zafar</p>
         </div>
     )
 }

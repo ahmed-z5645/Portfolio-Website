@@ -49,32 +49,59 @@
     margin-top:0%;
   }
 
-  @media screen and (max-width: 1200px){
-    .Hero{
-      background-image: url('./statics/IMG_0190.jpg');
-      background-position: 55% center;
-    }
-
-    .Nametag{
-      width: 90%;
-      top: 0%;
-      font-size: 7vw;
-    }
-
-    .Bigname{
-      font-size: 20vw;
-      padding:1%;
-    }
-
-    .Name{
-      margin-bottom: 21%
-    }
-
-    .Scroll{
-      font-size: 4vw;
-    }
-
-    .Arrowstyle{
-      display: none;
-    }
+@media screen and (max-width: 768px){
+  .Hero{
+    background-image: url('./statics/IMG_0190.jpg');
+    background-position: 55% center;
   }
+
+  .Nametag{
+    width: 90%;
+    top: 0%;
+    font-size: 7vw;
+  }
+
+  .Bigname{
+    font-size: 20vw;
+    padding:1%;
+  }
+
+  .Name{
+    margin-bottom: 21%
+  }
+
+  .Scroll{
+    font-size: 4vw;
+  }
+
+  .Arrowstyle{
+    display: none;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width: 900px){
+  .Hero{
+    height: 100dvh;
+    width: 100dvw;
+    background-position: 65% center;
+  }
+
+  .Nametag{
+    width: 75%;
+    font-size: 4vw;
+  }
+
+  .Bigname{
+    font-size:14vw;
+  }
+
+  .Arrowstyle{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1279px){
+  .Arrowstyle{
+    display:none;
+  }
+}

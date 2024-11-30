@@ -124,21 +124,19 @@
     position:relative;
 }
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:768px){
     .content{
         display: inline;
     }
 
     .Col{
         width:100%;
-        margin-left: 5%;
     }
 
     .title-blurb{
         width: 85%;
         margin: auto;
         z-index: auto;
-        margin-bottom: 75vw;
     }
 
     .title-blurb h1{
@@ -148,7 +146,7 @@
 
     .title-blurb h2{
         margin-top: 5%;
-        font-size: 9vw;
+        font-size: 7vw;
         margin-bottom: 0%;
     }
 
@@ -166,6 +164,7 @@
     .card{
         width: 80%;
         margin-bottom: 0%;
+        margin-left: 5%;
     }
 
     .card h3{
@@ -182,5 +181,56 @@
 
     .skillp{
         border-radius:3.5vw;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 900px){
+
+    .content{
+        display: inline
+
+    }
+
+    .title-blurb{
+        width:90%;
+        margin-left:5%;
+    }
+
+    .title-blurb h1{
+        font-size: 15vw;
+    }
+
+    .title-blurb h2{
+        font-size: 6vw;
+        margin-top:2%;
+    }
+
+    .Col{
+        width: 90%;
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction:row;
+        margin-left: 5%;
+    }
+
+    .card{
+        width: 40%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        padding: 2%;
+    }
+
+    .skillsp{
+        font-size: 1.5vw;
+        flex-wrap: wrap;
+    }
+
+    .skillp{
+        border-radius:3.5vw;
+        margin-bottom: 2%;
+    }
+
+    .card h3{
+        font-size: 2vw;
     }
 }

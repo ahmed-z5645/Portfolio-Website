@@ -94,7 +94,22 @@
     min-width:10%;
 }
 
-@media screen and (max-width: 1200px) {
+@media (prefers-reduced-motion: no-preference) {
+    .albumCover {
+      animation: albumCover-spin linear infinite 10s ;
+    }
+  }
+  
+  @keyframes albumCover-spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+@media screen and (max-width: 768px){
     .headshot-pic{
         width: 75vw;
         height: 100vw;
@@ -146,20 +161,67 @@
     }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .albumCover {
-      animation: albumCover-spin linear infinite 10s ;
+@media screen and (min-width:769px) and (max-width: 900px){
+    .headshot-pic{
+        width: 40vw;
+        height: 53.33vw;
+        margin-left: 27%;
     }
-  }
-  
-  @keyframes albumCover-spin {
-    0% {
-      transform: rotate(0deg);
+
+    .headshot-back{
+        margin-top:16vw;
+        width: 55%;
+        margin-left: 22.5%;
     }
-    100% {
-      transform: rotate(360deg);
+
+    .playing{
+        min-width: 75%;
+        width: 75%;
+        height: 15vw;
+        border-radius: 10vw;
+        margin: auto;
     }
-  }
+
+    .albumCover{
+        height: 80%;
+        margin-left: 2vw;
+    }
+    
+    .sound-title{
+        margin-top: 0;
+        font-size: 1.5vw;
+    }
+
+    .song-info{
+        height: fit-content;
+        display: inline;
+    }
+
+    .song-name{
+        font-size: 3.5vw;
+    }
+
+    .artist-name{
+        font-size:1.5vw;
+        font-weight: 500;
+    }
+
+    .play-bar{
+        margin-top: 0%;
+    }
+    
+    .pause{
+        font-size: 7vw;
+    }
+
+    .soundBar{
+        width:58%;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1279px) {
+    
+}
 
 @media screen and (min-width: 1600px){
 
@@ -170,5 +232,9 @@
 
     .headshot-back{
         width:591.25px;
+    }
+
+    .job p{
+        font-size: 20px;
     }
 }

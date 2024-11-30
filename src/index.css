@@ -40,7 +40,7 @@ html {
   scroll-behavior: smooth;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 768px){
   body{
     font-size:4.5vw;
   }
@@ -53,6 +53,28 @@ html {
   body h2{
     font-size: 8vw;
     line-height: 110%;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width: 900px){
+  body{
+    font-size: 3vw;
+  }
+
+  body h1{
+    font-size:6vw;
+    font-weight: 650;
+  }
+
+  body h2{
+    font-size: 4vw;
+    line-height: 110%;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1279px){
+  body{
+    font-size:1.75vw;
   }
 }
 

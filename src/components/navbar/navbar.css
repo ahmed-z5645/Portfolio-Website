@@ -27,7 +27,7 @@
     font-size: 1.4vw;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 900px){
     .navbar{
         display: none;
     }

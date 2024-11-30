@@ -3,9 +3,9 @@ export const jobs = [
         employer: 'Arche Biotechnolgies @ Hamilton, On',
         title: 'Software Engineering Intern',
         link: 'https://www.linkedin.com/company/arche-biotechnologies-inc/',
-        desc: 'Working at an emerging biomedical start-up, I am working with a team to develop a Web-App to interface with Arche’s custom sensors. Using React, Mongo-DB, Express.js, and Node.js, I have been tasked with designing and improving the infrastructure of the application, where I work with real-time data processing, storage, retrieval, and communication.',
+        desc: 'At an emerging biomedical start-up, I am working with a team to develop a Web-App to interface with Arche’s custom sensors. Using React, Mongo-DB, Express.js, and Node.js, I have been tasked with designing and improving the infrastructure of the application, where I work with real-time data processing, storage, retrieval, and communication.',
         date: 'April 2024 - Present',
-        skills:['React.js', 'React-Native', 'Express.js', 'MongoDB', 'Node.js']
+        skills:['React.js', 'Express.js', 'MongoDB', 'Node.js']
     },
     {
         employer: 'McMaster University',

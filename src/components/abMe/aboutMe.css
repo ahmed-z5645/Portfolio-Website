@@ -19,7 +19,7 @@
     position: relative;
     width:45%;
     margin-right: 5%;
-    line-height:125%;
+    line-height:120%;
 }
 .abmeRight h1{
     position: relative;
@@ -100,7 +100,7 @@
 
 .job p {
     transition: color 1s;
-    font-size: 1.2vw;
+    line-height: 110%;
 }
 
 .job:hover p {
@@ -111,7 +111,7 @@
     transform: scale(1);
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 768px){
     .aboutMe{
         display: inline;
     }
@@ -162,13 +162,75 @@
     .skill{
         border-radius: 3.5vw;
     }
+}
 
-    .link p{
-        font-size: 4.5vw;
+@media screen and (min-width:769px) and (max-width: 900px){
+    .aboutMe{
+        display: inline;
+    }
+
+    .abmeLeft{
+        width:90%;
+        margin: auto;
+        position: relative;
+    }
+
+    .job{
+        border-radius: 5vw;
+    }
+
+    .job:hover{
+        padding: auto;
+    }
+
+    .job p{
+        margin-top: 1vw;
+        font-size: 3vw;
+    }
+
+    .abmeRight{
+        width:90%;
+        margin: auto;
+    }
+
+    .resumeButton{
+        height: 8vw;
+        width:90%;
+        margin-left:5%;
+        font-size: 3.5vw;
+        border-radius: 3vw;
+    }
+
+    .job-title{
+        margin-bottom: 1.5vw;
+    }
+
+    .subject{
+        font-size:2.5vw;
+        display: flex;
+        margin-bottom: 0%;
+    }
+
+    .skills{
+        font-size: 2.5vw;
+    }
+
+    .skill{
+        border-radius: 3.5vw;
     }
 }
 
-@media screen and (min-width: 1500px){
+@media screen and (min-width:901px) and (max-width: 1279px){
+    .abmeRight{
+        font-size: 1.75vw;
+    }
+
+    .abmeLeft{
+        top:7.5dvh;
+    }
+}
+
+@media screen and (min-width: 1600px){
     .aboutMe{
         max-width: 1500px;
         margin-left: calc((100vw - 1500px)/2);
