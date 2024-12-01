@@ -66,8 +66,8 @@ const Projects = () => {
                                     </div>
                                 ))}
                                 {proj2.map((proj2) =>(
-                                <div className= "card">
-                                    <img src={proj2.image} className="cardImage" onClick={() => {window.open(proj2.link)}} />
+                                <div className= "card"  onClick={() => {window.open(proj2.link)}}>
+                                    <img src={proj2.image} className="cardImage" />
                                     <h2>{proj2.Title}</h2>
                                     <h3>{proj2.date}</h3>
                                     <p>{proj2.desc}</p>
@@ -130,8 +130,8 @@ const Projects = () => {
                             </div>
                             <div className="Col">
                                 {proj2.map((proj2) =>(
-                                <div className= "card">
-                                    <img src={proj2.image} className="cardImage" onClick={() => {window.open(proj2.link)}} />
+                                <div className= "card" onClick={() => {window.open(proj2.link)}}>
+                                    <img src={proj2.image} className="cardImage" />
                                     <h2>{proj2.Title}</h2>
                                     <h3>{proj2.date}</h3>
                                     <p>{proj2.desc}</p>

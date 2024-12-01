@@ -77,7 +77,7 @@ export const proj3 = [
         image: 'project_pics/mLRAD_pic.jpg',
         date: 'March 2024',
         desc: '3RD PLACE WINNER @ University of Toronto X McMaster Designathon. Machine Learning Risk Assessment Device, or ML-RAD, uses computer vision and neural networks to identify high-risk objects that may be a threat for our community partner who suffered a stroke and was left with left-side neglect.',
-        link: '',
+        link: 'https://www.linkedin.com/feed/update/urn:li:activity:7180580905365774336/',
         skills: ['TensorFlow', 'openCV', 'Presenting']
 
     }

@@ -1,4 +1,56 @@
 .Hero{
+  position: relative;
+  width: 100%;
+  height:110vh;
+  overflow: auto;
+}
+
+.ParentParallax{
+  position: relative;
+  top: 0;
+  left:0;
+  width: 100vw;
+  height: 110vh;
+  overflow: hidden;
+}
+
+.ParentParallax::-webkit-scrollbar {
+  display: none;
+}
+
+.Hero img {
+  width: 100%; height: auto;
+}
+
+.Nametag{
+  height: max-content;
+  width: 50%;
+  line-height: 0%;
+  font-size: 2vw;
+  overflow-y:hidden;
+  position:relative;
+  margin: auto;
+  top: 5%;
+}
+
+.Bigname{
+  font-size: 8.5vw;
+  color: #333333;
+}
+  
+.Name{
+  margin-bottom: 17%;
+  margin-top: 11%;
+}
+  
+.Lastname{
+  line-height: 0%;
+  margin-top:0%;
+  margin-bottom:10%;
+}
+
+@media screen and (max-width: 700px){
+  .smallHero{
     height: 100vh;
     max-width: 100vw;
     overflow-y: hidden;
@@ -9,49 +61,6 @@
     flex-direction: column;
     background-image: url('./statics/IMG_0190.jpg');
     background-size: cover;
-}
-  .Nametag{
-    height: max-content;
-    width: 50%;
-    line-height: 0%;
-    font-size: 2vw;
-    overflow-y:hidden;
-    position:relative;
-    margin: auto;
-    top: 5%;
-  }
-
-  .Bigname{
-    font-size: 8.5vw;
-    color: #333333;
-  }
-  
-  .Name{
-    margin-bottom: 17%;
-    margin-top: 11%;
-  }
-  .Lastname{
-    line-height: 0%;
-    margin-top:0%;
-    margin-bottom:10%;
-  }
-
-  .Scroll{
-    height:fit-content;
-    position:relative;
-    font-size: 1.5vw;
-    line-height:0%;
-  }
-
-  .Arrowstyle{
-    height: 4vw;
-    width: 4vw;
-    margin-top:0%;
-  }
-
-@media screen and (max-width: 768px){
-  .Hero{
-    background-image: url('./statics/IMG_0190.jpg');
     background-position: 55% center;
   }
 
@@ -71,37 +80,9 @@
   }
 
   .Scroll{
+    height:fit-content;
+    position:relative;
     font-size: 4vw;
-  }
-
-  .Arrowstyle{
-    display: none;
-  }
-}
-
-@media screen and (min-width:769px) and (max-width: 900px){
-  .Hero{
-    height: 100dvh;
-    width: 100dvw;
-    background-position: 65% center;
-  }
-
-  .Nametag{
-    width: 75%;
-    font-size: 4vw;
-  }
-
-  .Bigname{
-    font-size:14vw;
-  }
-
-  .Arrowstyle{
-    display: none;
-  }
-}
-
-@media screen and (min-width: 901px) and (max-width: 1279px){
-  .Arrowstyle{
-    display:none;
+    line-height:0%;
   }
 }
